@@ -1,1 +1,1 @@
-# Registr
+![Registr](/img/title.png)
