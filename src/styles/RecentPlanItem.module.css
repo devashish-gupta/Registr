@@ -1,0 +1,150 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #2a374a;
+    padding: 12px;
+    padding-left: 15px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    margin-bottom: 3px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 13px;
+    width: 27vw;
+    transition: all 100ms ease-in-out;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.container:hover {
+    display: flex;
+    flex-direction: column;
+    background-color: #303d50;
+    padding: 12px;
+    padding-left: 15px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    margin-bottom: 3px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 13px;
+    width: 27vw;
+    transition: all 100ms ease-in-out;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.selected_container {
+    display: flex;
+    flex-direction: column;
+    background-color: #39475e;
+    padding: 12px;
+    padding-left: 15px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    margin-bottom: 3px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 13px;
+    width: 27vw;
+    transition: all 100ms ease-in-out;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.selected_container:hover {
+    display: flex;
+    flex-direction: column;
+    background-color: #425068;
+    padding: 12px;
+    padding-left: 15px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    margin-bottom: 3px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 13px;
+    width: 27vw;
+    transition: all 100ms ease-in-out;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.name {
+    flex: 1;
+    padding-right: 10px;
+    opacity: 0.8;
+}
+
+.semester {
+    margin-top: 1px;
+    width: 70px;
+    opacity: 0.4;
+    font-size: 12px;
+    text-align: right;
+    margin-right: 15px;
+}
+
+.lmod {
+    opacity: 0.4;
+    font-size: 12px;
+}
+
+.input {
+    flex: 1;
+    padding-right: 10px;
+    opacity: 0.8;
+    background-color: transparent;
+    padding: 0px;
+    margin-top: -3px;
+    outline: none;
+    border: none;
+    color: #ffffff;
+}
+
+.addbutton {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background: linear-gradient(80deg, #3d74b5, #ad38e4);
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+.addbutton:hover {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background: linear-gradient(80deg, #3d74b5, #ad38e4);
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    opacity: 0.8;
+}

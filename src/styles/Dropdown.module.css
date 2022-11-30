@@ -1,0 +1,115 @@
+.box {
+    background-color: #4e5661;
+    transition: all 200ms ease-in-out;
+    color: #999999;
+    /* font-size: 0.78em; */
+    padding: 5.5px;
+    margin-right: 15px;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+.box:hover {
+    background-color: #545c68;
+    transition: all 200ms ease-in-out;
+    color: #999999;
+    /* font-size: 0.78em; */
+    padding: 5.5px;
+    margin-right: 15px;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.options_open {
+    margin-top: 3px;
+    max-height: 500px;
+    opacity: 1;
+    transition: all 200ms ease-in-out;
+    background-color: #777777;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-top: 5px;
+    border-radius: 8px;
+    color: #ffffff;
+    position: absolute;
+    width: 105px;
+    z-index: 2;
+    box-shadow: rgba(20, 20, 40, 0.19) 0px 10px 20px, rgba(30, 30, 40, 0.23) 0px 6px 6px;
+}
+
+.options_close {
+    margin-top: 3px;
+    max-height: 0px;
+    opacity: 0;
+    transition: all 200ms ease-in-out;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-top: 5px;
+    border-radius: 8px;
+    color: #ffffff;
+    position: absolute;
+    width: 105px;
+    transform: scale(1.15);
+    z-index: 2;
+}
+
+.current_option {
+    padding-left: 5px;
+    flex: 1;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    font-size: 0.8em;
+    margin-top: 3px;
+}
+
+.option_item:hover {
+    padding-left: 1px;
+    color: #ffffff;
+    font-size: 0.80em;
+    transition: all 150ms ease-in-out;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.option_item {
+    color: #cccccc;
+    font-size: 0.80em;
+    transition: all 150ms ease-in-out;
+    padding: 3px;
+}
+
+.icon {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    margin-top: 0px;
+    margin-right: 5px;
+    text-align: right;
+    width: 20px;
+    transition: all 100ms ease-in-out;
+}

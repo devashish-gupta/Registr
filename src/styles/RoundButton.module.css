@@ -1,0 +1,77 @@
+.roundbutton2 {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background: linear-gradient(80deg, #3d74b5, #5d42d3);
+    text-align: center;
+    padding-top: 2px;
+    box-sizing: border-box;
+}
+
+.roundbutton2:hover {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background: linear-gradient(80deg, #3d74b5, #5d42d3);
+    text-align: center;
+    padding-top: 2px;
+    box-sizing: border-box;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.roundbutton5 {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background: linear-gradient(80deg, #3d74b5, #5d42d3);
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+.disabledroundbutton {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background: linear-gradient(80deg, #3d74b5, #5d42d3);
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    opacity: 0.2;
+    cursor: default;
+}
+
+.roundbutton5:hover {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background: linear-gradient(80deg, #3d74b5, #5d42d3);
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.roundbutton5:active {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background: linear-gradient(80deg, #3d74b5, #5d42d3);
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    opacity: 0.8;
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

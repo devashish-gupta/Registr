@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 6px;
+}
+
+.text {
+    margin-right: 20px;
+    font-size: 13px;
+    width: 50px;
+    text-align: right;
+}
+
+.numden {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.slot {
+    margin-top: 5px;
+    margin-right: 20px;
+    background-color: #c3c4c9;
+    border-radius: 50px;
+    height: 10px;
+    width: 200px;
+}
+
+/* .slotbar {
+    
+} */

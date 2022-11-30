@@ -1,0 +1,69 @@
+.container {
+    padding: 10px;
+    background-color: #1E273C;
+    padding-right: 0px;    
+    color: #eeeeee;
+    font-weight: 300;
+    font-size: 12px;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-bottom: 2px;
+    margin-left: 15px;
+    transition: all 150ms ease-in-out;
+}
+
+.container:hover {
+    padding: 10px;
+    padding-right: 0px;
+    background-color: #263046;
+    color: #eeeeee;
+    font-weight: 300;
+    font-size: 12px;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-bottom: 2px;
+    margin-left: 15px;
+    transition: all 150ms ease-in-out;
+}
+
+.sel_container {
+    padding: 10px;
+    padding-right: 0px;
+    background-color: #303b58;
+    color: #eeeeee;
+    font-weight: 300;
+    font-size: 12px;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-bottom: 2px;
+    margin-left: 15px;
+    transition: all 150ms ease-in-out;
+}
+
+.sel_container:hover {
+    padding: 10px;
+    padding-right: 0px;
+    background-color: #394463;
+    color: #eeeeee;
+    font-weight: 300;
+    font-size: 12px;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-bottom: 2px;
+    margin-left: 15px;
+    transition: all 150ms ease-in-out;
+}
+
+.input {
+    opacity: 0.8;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    position: relative;
+    color: #ffffff;
+    padding: 0px;
+}

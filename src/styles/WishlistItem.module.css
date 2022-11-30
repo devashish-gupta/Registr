@@ -1,0 +1,125 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #e2e6ec;
+    padding: 20px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    transition: all 300ms ease-in-out;
+}
+
+.container:hover {
+    display: flex;
+    flex-direction: row;
+    background-color: #d8dce2;
+    padding: 20px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    transition: all 300ms ease-in-out;
+}
+
+.container:active {
+    display: flex;
+    flex-direction: row;
+    background-color: #c5c9d1;
+    padding: 20px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    transform: translateY(2px);
+    transition: all 100ms ease-in-out;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right: 70px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: all 150ms ease-in-out;
+}
+
+.title:hover {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 150ms ease-in-out;
+}
+
+.smalldetails {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+
+.crn {
+    margin-right: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: all 150ms ease-in-out;
+}
+
+
+.crn:hover {
+    margin-right: 20px;
+    margin-left: 15px;
+    opacity: 0.9;
+    transform: scale(1.08);
+    transition: all 150ms ease-in-out;
+    cursor: pointer;
+}
+
+.crn:active {
+    margin-right: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    transform: scale(0.95);
+    transition: all 100ms ease-in-out;
+}
+
+.code {
+    margin-right: 20px;
+}
+
+.credits {
+    margin-right: 20px;
+}
+
+.stats {
+    flex: 0.95;
+}
+
+.actions {
+    width: 100px;
+    /* border: 1px solid; */
+}
+
+.inference {
+    font-size: 13px;
+    text-align: right;
+    /* border: 1px solid; */
+}
+
+.actionbuttons {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    margin-top: 15px;
+    /* border: 1px solid; */
+}
+
+.show_copied {
+    opacity: 1;
+}
+
+.hide_copied {
+    opacity: 0;
+    transition: all 300ms ease-out;
+}

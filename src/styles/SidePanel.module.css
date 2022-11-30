@@ -1,0 +1,92 @@
+.container {
+    background-color: #171e30;
+    height: 100vh;
+    width: 20.8vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.title {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #ffffff;
+    margin-top: 0px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+
+.title:hover {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #d1d0d0;
+    margin-top: 0px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 250ms ease-in-out;
+}
+
+.creds {
+    position: relative;
+    bottom: 0px;
+    color: #6d6d6d;
+    font-size: 10px;
+    flex: 1;
+    padding: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    justify-content: flex-end;
+    background: linear-gradient(to top, #171e30, #00000000);
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.cred_text {
+    position: relative;
+    left: 0px;
+    padding: 15px;
+    padding-left: 0px;
+}
+
+.dimmer_on {
+    position: absolute;
+    top: 170px;
+    left: 0px;
+    height: calc(100vh - 170px);
+    width: 20.8vw;
+    background-color: #171e30;
+    z-index: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    opacity: 1;
+    transition: all 150ms ease-in-out;
+}
+
+.dimmer_off {
+    position: absolute;
+    top: 170px;
+    left: 0px;
+    height: calc(100vh - 170px);
+    width: 20.8vw;
+    background-color: #171e30;
+    z-index: -1;
+    padding-left: 15px;
+    padding-right: 15px;
+    opacity: 0;
+    transition: all 200ms ease-in-out;
+}

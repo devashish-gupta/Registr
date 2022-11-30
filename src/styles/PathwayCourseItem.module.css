@@ -1,0 +1,171 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #efeef8;
+    padding: 10px;
+    padding-left: 15px;
+    margin-bottom: 2px;
+    border-radius: 8px;
+    color: #000000;
+    font-size: 13px;
+    transition: all 100ms ease-in-out;
+}
+
+.container:hover {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    padding: 10px;
+    padding-left: 15px;
+    margin-bottom: 2px;
+    margin-right: -10px;
+    border-radius: 8px;
+    color: #000000;
+    font-size: 13px;
+    cursor: default;
+    transition: all 100ms ease-in-out;
+}
+
+.registered_container {
+    display: flex;
+    flex-direction: row;
+    background-color: #efeef8;
+    padding: 10px;
+    padding-left: 15px;
+    margin-bottom: 2px;
+    border-radius: 8px;
+    border: 1px solid #a7a6d6;
+    color: #000000;
+    font-size: 13px;
+    transition: all 100ms ease-in-out;
+}
+
+.registered_container:hover {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    padding: 10px;
+    padding-left: 15px;
+    margin-bottom: 2px;
+    margin-right: -10px;
+    border-radius: 8px;
+    border: 1px solid #a7a6d6;
+    color: #000000;
+    font-size: 13px;
+    opacity: 0.8;
+    cursor: default;
+    transition: all 100ms ease-in-out;
+}
+
+.foundational_container {
+    display: flex;
+    flex-direction: row;
+    background-color: #efeef8;
+    padding: 10px;
+    padding-left: 15px;
+    margin-bottom: 2px;
+    border-radius: 8px;
+    color: #07055e;
+    opacity: 1;
+    font-size: 13px;
+    font-weight: 700;
+    transition: all 100ms ease-in-out;
+}
+
+.foundational_container:hover {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    padding: 10px;
+    padding-left: 15px;
+    margin-bottom: 2px;
+    margin-right: -10px;
+    border-radius: 8px;
+    color: #07055e;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: default;
+    transition: all 100ms ease-in-out;
+}
+
+.foundational_registered_container {
+    display: flex;
+    flex-direction: row;
+    background-color: #efeef8;
+    padding: 10px;
+    padding-left: 15px;
+    margin-bottom: 2px;
+    border-radius: 8px;
+    border: 1px solid #a7a6d6;
+    color: #07055e;
+    opacity: 1;
+    font-size: 13px;
+    font-weight: 700;
+    transition: all 100ms ease-in-out;
+}
+
+.foundational_registered_container:hover {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    padding: 10px;
+    padding-left: 15px;
+    margin-bottom: 2px;
+    margin-right: -10px;
+    border-radius: 8px;
+    border: 1px solid #a7a6d6;
+    color: #07055e;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: default;
+    transition: all 100ms ease-in-out;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.code {
+    margin-right: 5px;
+    margin-top: 1px;
+    width: 65px;
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+.name {
+    padding-right: 10px;
+    opacity: 0.6;
+    width: 50%;
+}
+
+.addbutton {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background: linear-gradient(80deg, #3d74b5, #ad38e4);
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+.addbutton:hover {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background: linear-gradient(80deg, #3d74b5, #ad38e4);
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    opacity: 0.8;
+}
+
+.placeholder {
+    height: 25px;
+    width: 25px;
+}

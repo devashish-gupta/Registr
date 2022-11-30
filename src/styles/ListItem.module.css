@@ -1,0 +1,73 @@
+.unselectable { 
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.titlebar_unactive {
+    color: #d6d6d6;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #424954;
+    display: flex;
+    padding: 12px;
+    border-radius: 8px;
+    transition: all 100ms ease-in-out;
+    margin-bottom: 2px;
+}
+
+.titlebar_unactive:hover {
+    color: #d6d6d6;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #4d545f;
+    display: flex;
+    padding: 12px;
+    border-radius: 8px;
+    transition: all 100ms ease-in-out;
+    margin-bottom: 2px;
+}
+
+.titlebar_active {
+    color: #d6d6d6;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #606874;
+    display: flex;
+    padding: 12px;
+    border-radius: 8px;
+    transition: all 100ms ease-in-out;
+    margin-bottom: 2px;
+}
+
+.titlebar_active:hover {
+    color: #d6d6d6;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #676f7a;
+    display: flex;
+    padding: 12px;
+    border-radius: 8px;
+    transition: all 100ms ease-in-out;
+    margin-bottom: 2px;
+}
+
+.title {
+    margin-left: 2px;
+    width: 100%;
+}
+
+.courselist_open {
+    max-height: 5000px;
+    transition: all 150ms ease-in-out;
+    overflow: hidden;
+}
+
+.courselist_close {
+    max-height: 0px;
+    transition: all 150ms ease-in-out;
+    overflow: hidden;
+}
