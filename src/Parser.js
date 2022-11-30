@@ -195,8 +195,6 @@ const getCourseInfoByCode = async ({ courseCode, subCodes, year, semester }) => 
         return [false, {}];
     }
 
-    console.log(fetchedCourse);
-
     return [true, fetchedCourse];
 }
 
